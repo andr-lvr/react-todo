@@ -1,0 +1,18 @@
+.task {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .task.completed {
+    background-color: #d4edda;
+    color: #155724;
+    text-decoration: line-through;
+  }
+  
+  .task.pending {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
